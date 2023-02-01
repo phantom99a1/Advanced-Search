@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="mt32">
+    <div class="container">
+        <h3>
+            <span>Search Table Record:</span>
+            <input type="text" id="search" placeholder="Search..." class="form-control search-input"
+            data-table="customers-list">
+        </h3>
+        <table class="table table-striped mt32 customers-list">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Postal Code</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="tab">
+                <tr>
+                    <td>1</td>
+                    <td>Jennie</td>
+                    <td>Jennie96@gmail.com</td>
+                    <td>160196</td>
+                    <td>Korea</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jisoo</td>
+                    <td>Jisoo95@gmail.com</td>
+                    <td>030195</td>
+                    <td>Korea</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rose</td>
+                    <td>Rose97@gmail.com</td>
+                    <td>110207</td>
+                    <td>New Zealand</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lisa</td>
+                    <td>Lisa97@gmail.com</td>
+                    <td>270397</td>
+                    <td>Thailand</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>TienDuat</td>
+                    <td>viendanho99a1@gmail.com</td>
+                    <td>168099</td>
+                    <td>Vietnam</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Luffy</td>
+                    <td>luffy@gmail.com</td>
+                    <td>Yonkou</td>
+                    <td>East Blue</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Shank</td>
+                    <td>shank@gmail.com</td>
+                    <td>Yonkou</td>
+                    <td>West Blue</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Zoro</td>
+                    <td>zoro@gmail.com</td>
+                    <td>Sword man</td>
+                    <td>East Blue</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
